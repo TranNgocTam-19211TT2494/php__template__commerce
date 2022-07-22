@@ -4,7 +4,7 @@
 ini_set('display_errors', 1);
 
 $dir = __DIR__;
-require_once $dir . "/../vendor/autoload.php";
+require_once $dir . "../vendor/autoload.php";
 
 use Commerce\Core\Bootstrap;
 

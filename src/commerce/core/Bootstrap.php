@@ -36,8 +36,8 @@ class Bootstrap
         date_default_timezone_set('Asia/Ho_Chi_Minh');
 
         //Get configuration file
-        // $environment = Dotenv::create(Config::getBasePath());
-        // $environment->load();
+        $environment = Dotenv::create(Config::getBasePath());
+        $environment->load();
 
     }
 
