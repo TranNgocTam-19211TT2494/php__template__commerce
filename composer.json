@@ -1,0 +1,15 @@
+{
+    "require": {
+        "swiftmailer/swiftmailer": "^6.0",
+        "twig/twig": "^2.0",
+        "twig/extensions": "^1.5",
+        "guzzlehttp/guzzle": "~6.0",
+        "vlucas/phpdotenv": "^3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Commerce\\App\\": "src/commerce/app/",
+            "Commerce\\Core\\": "src/commerce/core/"
+        }
+    }
+}
