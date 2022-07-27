@@ -31,7 +31,7 @@ class Response
     }
 
     /**
-     * 指定URLにリダイレクトする
+     * Redirect to the specified url
      * @param string $uri
      * @param int $http_code
      */
@@ -42,7 +42,7 @@ class Response
     }
 
     /**
-     * CSVを出力する
+     * Output Csv
      * @param string $data
      * @param string $filename
      * @param bool $encode
@@ -60,7 +60,7 @@ class Response
     }
 
     /**
-     * テンプレート用に値をセットする
+     * Set the value for the template
      * @param $name
      * @param $value
      * @return void
@@ -71,7 +71,7 @@ class Response
     }
 
     /**
-     * Viewテンプレートを出力する。
+     * Output View template.
      * @param string $path
      * @return string
      * @throws Error
@@ -86,7 +86,7 @@ class Response
     }
 
     /**
-     * メール用のテンプレートを出力する。
+     * Output template for email.
      * @param string $path
      * @param array $params
      * @return string
@@ -98,7 +98,7 @@ class Response
     }
 
     /**
-     * テンプレートを描画する
+     * Draw template
      * @param string $path
      * @param array $params
      * @return string
